@@ -1,0 +1,5 @@
+show dbs
+db.createUser( { user: "root", pwd: "pass123", roles: [{ role: "userAdminAnyDatabase", db: "admin" }, "readWriteAnyDatabase"] })
+use admin
+show dbsse admin
+show dbs
